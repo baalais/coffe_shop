@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --background: #222831;
+    --primary: #29a19c;
+    --secondary: #51565e;
+    --text: white;
+}
+
+.bigText{
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-size: 168px;
+    letter-spacing: 2px;
+    color: white;
+    margin: 0;
+    margin-left: 40px;
+    width: 30%;
+    height: 17vh;
+    text-align: left;
+}
+
+.secondpage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 85vh;
+    background-color: var(--primary);
+}
+
+.background776{
+    width: 33%;
+    position: absolute;
+    right: 200px;
+}
+
+.orderButton{
+    width: 18%;
+    background: var(--background);
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    border: none;
+    margin-left: 20px;
+    margin-top: 100px;
+    height: 6vh;
+    font-size: 28px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.secondpageContents{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    z-index: 2;
+}
+
+.p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', 'sans-serif';
+    margin-left: 30px;
+    width: 35%;
+    line-height: 30px;
+    text-align: right;
+    margin-right: 200px;
+}
+
+.splitdiv{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+
+.splitdivp{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 50%;
+}
+
+.coffe{
+    position: absolute;
+    right: 100px;
+    top: 900px;
+    transform: rotateZ(30deg);
+    width: 70px;
+    z-index: 2;
+}
+.coffePot{
+    position: absolute;
+    top: 1300px;
+    left: 700px;
+    transform: rotateY(180deg) ;
+    width: 140px;
+    z-index: 2;
+
+}
+.coffeBean{
+    position: absolute;
+    top: 1000px;
+    left: 800px;
+    transform: rotateZ(45deg);
+    width: 50px;
+}
+.coffeBean2{
+    position: absolute;
+    top: 1600px;
+    left: 100px;
+    transform: rotateZ(-20deg);
+    width: 50px;
+}
+.coffeBean3{
+    position: absolute;
+    top: 1450px;
+    left: 1750px;
+    transform: rotateZ(45deg);
+    width: 70px;
+}

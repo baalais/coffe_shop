@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --background: #222831;
+    --primary: #29a19c;
+    --secondary: #51565e;
+    --text: white;
+}
+
+.branchesPage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.textBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bigText{
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-size: 118px;
+    letter-spacing: 2px;
+    color: white;
+    width: 60%;
+    height: 17vh;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.imageBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.splitBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+.p{
+    color: white;
+    font-size: 32px;
+    font-family: 'Montserrat', 'sans-serif';
+    width: 60%;
+    line-height: 30px;
+    text-align: center;
+    margin: 5px;
+}
+
+.p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', 'sans-serif';
+    width: 90%;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.button {
+    position: relative;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px 10px 10px 7px;
+    text-align: center;
+    width: 50%;
+    font-size: 26px;
+    font-weight: bold;
+    height: 5vh;
+    margin: 30px;
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 4%;
+    width: 15px;
+    height: 20px;
+    background-color: var(--primary);
+    border-radius: 47px 23px 0px 250px;
+    transform: translateX(-50%);
+}
+

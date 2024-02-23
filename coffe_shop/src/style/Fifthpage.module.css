@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --background: #222831;
+    --primary: #29a19c;
+    --secondary: #51565e;
+    --text: white;
+}
+
+.fifthPage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.orderButton{
+    width: 30%;
+    background: var(--primary);
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+    height: 6vh;
+    font-size: 28px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bigText{
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-size: 118px;
+    letter-spacing: 2px;
+    color: white;
+    width: 60%;
+    height: 17vh;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.textBox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+}
+
+.imageBox{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.buttonBox{
+    display: flex;
+    justify-content: center;
+}
