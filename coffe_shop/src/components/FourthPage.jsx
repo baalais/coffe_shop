@@ -27,4 +27,4 @@ function Fourthpage() {
     );
 }
 
-export default Fourthpage;
+export default Fourthpage

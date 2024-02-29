@@ -11,7 +11,7 @@ function Footer() {
     return (
         <>
             <img src={wave5} className={css.wave5}/>
-            <div className={css.mainFooterContainer}>
+            <div id='contact' className={css.mainFooterContainer}>
                 <div className={css.footerContainer}>
                     <div className={css.splitBox}>
                         <img src={logo} className={css.logo}/>
@@ -32,12 +32,12 @@ function Footer() {
                 </div>
                 <div className={css.footerBar}>
                     <div className={css.elementBar}>
-                        <div className={css.element}><p>Home</p></div>
-                        <div className={css.element}><p>About</p></div>
-                        <div className={css.element}><p>Menu</p></div>
-                        <div className={css.element}><p>Blog</p></div>
-                        <div className={css.element}><p>Shop</p></div>
-                        <div className={css.element}><p>Contact</p></div>
+                        <div className={css.element}><a className={css.p} href='#home'><p className={css.p}>Home</p></a></div>
+                        <div className={css.element}><a className={css.p} href='#about'><p className={css.p}>About</p></a></div>
+                        <div className={css.element}><a className={css.p} href='#menu'><p className={css.p}>Menu</p></a></div>
+                        <div className={css.element}><a className={css.p} href='#blog'><p className={css.p}>Blog</p></a></div>
+                        <div className={css.element}><a className={css.p} href='#shop'><p className={css.p}>Shop</p></a></div>
+                        <div className={css.element}><a className={css.p} href='#contact'><p className={css.p}>Contact</p></a></div>
                     </div>
                     <div className={css.socialBar}>
                         <img src={facebook} className={css.icons}/>
@@ -48,7 +48,7 @@ function Footer() {
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-export default Footer;
+export default Footer

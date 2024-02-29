@@ -7,7 +7,7 @@ import coffePot from '../assets/icons/coffeePot.png';
 function Secondpage() {
     return (
         <>
-            <div className={css.secondpage}>
+            <div id='about' className={css.secondpage}>
                 <img className={css.coffe} src={coffe}/>
                 <img className={css.coffePot} src={coffePot}/>
                 <img className={css.coffeBean} src={coffeBean}/>
@@ -20,15 +20,17 @@ function Secondpage() {
                         <button className={css.orderButton}>Order Now</button>
                     </div>
                     <div className={css.splitdivp}>
-                        <p className={css.p}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at
+                        <img src={background776} className={css.background776}/>
+                        <p className={css.p}>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at
                             consequatur cum debitis dolor incidunt ipsum iure molestiae odio quae, ratione saepe sequi,
-                            suscipit temporibus vitae? Blanditiis nam neque nihil.</p>
+                            suscipit temporibus vitae? Blanditiis nam neque nihil.
+                        </p>
                     </div>
                 </div>
-                <img src={background776} className={css.background776}/>
             </div>
         </>
     );
 }
 
-export default Secondpage;
+export default Secondpage

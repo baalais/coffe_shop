@@ -56,3 +56,23 @@
     width: 100%;
     margin: 30px;
 }
+
+
+@media screen and (max-width: 600px) {
+    .bigText {
+        z-index: 2;
+        font-size: 98px;
+        width: 100%;
+        margin: 5px;
+        text-align: center;
+        height: 30vh;
+    }
+
+    .mainContainer{
+        height: 70vh;
+    }
+
+    .h3{
+        text-align: center;
+    }
+}

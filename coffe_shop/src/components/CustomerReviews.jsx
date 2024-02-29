@@ -6,7 +6,7 @@ import wave3 from '../assets/waves/wave3.png';
 function Customerreviews() {
     return (
         <>
-            <div className={css.fifthPage}>
+            <div id='blog' className={css.fifthPage}>
                 <div className={css.textBox}>
                     <h1 className={css.bigText}>Customer Reviews</h1>
                 </div>
@@ -34,4 +34,4 @@ function Customerreviews() {
     );
 }
 
-export default Customerreviews;
+export default Customerreviews

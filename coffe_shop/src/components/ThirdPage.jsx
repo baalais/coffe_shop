@@ -5,7 +5,7 @@ import coffe778 from '../assets/images/coffe778.png';
 function Thirdpage() {
     return (
         <>
-            <div className={css.thirdpage}>
+            <div id='menu' className={css.thirdpage}>
                 <img className={css.wave2} src={wave2}/>
                 <div className={css.thirdpageContents}>
                     <div className={css.splitBox}>
@@ -25,4 +25,4 @@ function Thirdpage() {
     );
 }
 
-export default Thirdpage;
+export default Thirdpage

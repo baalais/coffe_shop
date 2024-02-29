@@ -11,9 +11,10 @@
 .fifthPage{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    min-height: 100vh;
     align-items: center;
+    width: 100%;
+    height: 100vh;
+
 }
 
 .orderButton{
@@ -50,146 +51,209 @@
     margin: 10px;
 }
 
-.imageBox{
+.voucherBox{
     display: flex;
     justify-content: center;
     margin: 20px;
-    width: 53.2vw;
-    height: 50vh;
-    box-shadow: -5px 5px 15px 0 rgba(0, 0, 0, 0.5);
+    width: 60%;
+    height: 45vh;
+    position: relative;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.55);
+
+    .waveTop{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        z-index: 2;
+        height: 55%;
+    }
+
+    .waveBottom{
+        position: absolute;
+        z-index: 2;
+        bottom: 0px;
+        left: 0px;
+        height: 25%;
+    }
+
+    .image{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 90%;
+    }
+
+    .logo{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 2;
+        width: 20%;
+    }
+
+    .contentsBox{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 70%;
+        height: 70%;
+        color: white;
+    }
+
+    .voucherH1{
+        font-family: "Grand Hotel", cursive;
+        font-weight: 400;
+        font-size: 72px;
+        letter-spacing: 2px;
+        color: white;
+        text-align: center;
+        margin: 0;
+    }
+
+    .p{
+        font-family: 'Montserrat', 'sans-serif';        
+        font-size: 12px;
+        width: 75%;
+        height: 8vh;
+        text-align: center;
+        margin: 0;
+    }
+
+    .picon{
+        font-family: 'Montserrat', 'sans-serif';
+        font-size: 14px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .iconElement{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        width: 15%;
+    }
+
+    .validateVoucher{
+        background-color: var(--primary);
+        border-radius: 10px;
+        padding: 5px;
+        width: 30%;
+        font-family: 'Montserrat', 'sans-serif';
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .socialIcons{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+
+        .icon{
+            height: 60%;
+            margin: 5px;
+        }
+    }
 }
+
+
 
 .buttonBox{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    width: 80vw;
+    width: 100%;
 }
-.absolute{
-    position: absolute;
-    margin-right: 365px;
-}
-.absoluteTop{
-    position: absolute;
-    margin-left: 390px;
-}
-.absoluteBottom{
-    position: absolute;
-    margin-right: 376px;
-    margin-top: 300px;
-}
-.absoluteLogo{
-    position: absolute;
-    margin-left: 600px;
-    margin-top: 20px;
-    width: 155px;
-    height: 35px;
-}
-.h1{
-    position: absolute;
-    margin-left: 230px;
-    margin-top: 140px;
-    font-family: "Grand Hotel", cursive;
-    font-weight: 400;
-    font-size: 60px;
-    letter-spacing: 2px;
-    color: white;
-    width: 60%;
-    height: 17vh;
-    text-align: center;
-}
-.h2{
-    position: absolute;
-    margin-top: 220px;
-    margin-left: 230px;
-    color: white;
-    font-weight: 100;
-    width: 30vw;
-    font-size: 10px;
-    font-family: 'Montserrat', 'sans-serif';
-    text-align: center;
-    word-break: normal;
-}
-.validate{
-    position: absolute;
-    margin-top: 260px;
-    margin-left: 220px;
-    width: 15%;
-    background: var(--primary);
-    color: white;
-    border-radius: 15px;
-    padding: 7px;
-    border: none;
-    font-size: 12px;
-    cursor: pointer;
-    font-weight: bold;
-}
-.coffee{
-    position: absolute;
-    margin-top: 90px;
-    margin-left: 450px;
-    width: 50px;
-    height: 55px;
-    opacity: 0.2;
-    rotate: 35deg;
-}
-.coffeePot{
-    position: absolute;
-    transform: scaleX(-1);
-    rotate: -65deg;
-    width: 60px;
-    height: 65px;
-    margin-top: 275px;
-    margin-right: 120px;
-    opacity: 0.2;
-}
-.coffeeBean{
-    position: absolute;
-    position: absolute;
-    width: 30px;
-    height: 35px;
-    margin-top: 280px;
-    margin-left: 640px;
-    opacity: 0.2;
-    rotate: 50deg;
-}
-.coffeeBeanSmall{
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 80px;
-    width: 20px;
-    height: 25px;
-    opacity: 0.2;
-    rotate: -10deg;
-}
-.connection{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 360px;
-    margin-left: 400px;
-}
-.connectionLine{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
-.h3{
-    color: white;
-    font-weight: 100;
-    font-size: 10px;
-    font-family: 'Montserrat', 'sans-serif';
-    text-align: center;
-    word-break: normal;
-}
-.connectionImg{
-    background-color: white;
-    width: 25px;
-    height: 25px;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1px;
+
+@media screen and (max-width: 600px) {
+    .bigText{
+        z-index: 2;
+        font-size: 108px;
+        width: 100%;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .voucherBox .p{
+        z-index: 2;
+        width: 80%;
+        height: 100%;
+        font-size: 8px;
+        margin: 5px;
+        color: white;
+        text-align: center;
+    }
+
+    .fifthPage{
+        align-items: center;
+        height: 70vh;
+    }
+
+    .voucherBox{
+        width: 90%;
+        margin: 5px;
+        height: 25vh;
+    }
+
+    .image{
+        width: 70%;
+    }
+
+    .voucherBox .socialIcons .icon{
+        height: 10px;
+        margin: 2px;
+    }
+
+    .voucherBox .picon{
+        font-size: 7px;
+    }
+
+    .voucherBox .iconElement{
+        margin: 7px;
+    }
+
+    .voucherBox .validateVoucher{
+        width: 50%;
+        font-size: 7px;
+        padding: 1px;
+        font-weight: normal;
+        height: 2vh;
+    }
+
+    .voucherBox .waveBottom{
+        width: 60%;
+        height: 30%;
+    }
+
+    .voucherBox .waveTop{
+        height: 40%;
+        width: 70%;
+    }
+
+    .voucherBox .voucherH1 {
+        font-size: 17px;
+        margin-left: 30px;
+    }
+
+    .splitdivp{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin-top: 50px;
+    }
+
+    .orderButton{
+        z-index: 2;
+        font-size: 22px;
+        width: 65%;
+        margin: 10px;
+        margin-top: 40px;
+    }
 }

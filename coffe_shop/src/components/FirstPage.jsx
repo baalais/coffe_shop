@@ -10,7 +10,7 @@ import coffePot from '../assets/icons/coffeePot.png';
 function Firstpage() {
     return (
             <>
-                <div className={css.firstpage}>
+                <div id='home' className={css.firstpage}>
                     <img className={css.coffe} src={coffe}/>
                     <img className={css.coffePot} src={coffePot}/>
                     <img className={css.coffeBean} src={coffeBean}/>
@@ -30,4 +30,4 @@ function Firstpage() {
     );
 }
 
-export default Firstpage;
+export default Firstpage

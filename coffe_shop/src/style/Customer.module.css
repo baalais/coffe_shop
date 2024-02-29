@@ -80,3 +80,36 @@
         width: 100%;
     }
 }
+
+
+@media screen and (max-width: 600px) {
+    .bigText {
+        z-index: 2;
+        font-size: 108px;
+        width: 100%;
+        margin: 5px;
+        text-align: center;
+        height: 100%;
+    }
+
+    .textBox{
+        margin: 5px;
+        height: 100%;
+    }
+
+    .imageBox {
+        flex-wrap: wrap;
+    }
+
+    .customerImg{
+        width: 90%;
+    }
+
+    .orderButton{
+        z-index: 2;
+        font-size: 22px;
+        width: 65%;
+        margin: 10px;
+        margin-top: 40px;
+    }
+}

@@ -3,7 +3,7 @@ import css from '../style/Times.module.css';
 function Times() {
     return (
         <>
-            <div className={css.mainContainer}>
+            <div id='shop' className={css.mainContainer}>
                 <h1 className={css.bigText}>We are Open</h1>
                 <div className={css.splitBox}>
                     <h3 className={css.h3}>Monday - Friday</h3>
