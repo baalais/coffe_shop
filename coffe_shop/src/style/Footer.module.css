@@ -1,25 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-:root {
-    --background: #222831;
-    --primary: #29a19c;
-    --secondary: #51565e;
-    --text: white;
-}
 
 .mainFooterContainer{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 100%;
-    min-height: 50vh;
+    /* min-height: 50vh; */
     background-color: var(--primary);
 }
 
 .footerContainer{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -27,8 +21,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    
     width: 33%;
-    height: 50vh;
+    /* height: 50vh; */
 }
 
 .wave5{
@@ -62,9 +57,9 @@
     font-family: 'Montserrat', 'sans-serif';
     font-weight: bold;
     margin: 0px;
-    margin-right: 25px;
-    margin-left: 55px;
-    height: 5vh;
+    /* margin-right: 25px;
+    margin-left: 55px; */
+    /* height: 5vh; */
 
     p{
         cursor: pointer;
@@ -75,8 +70,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20%;
-    height: 7vh;
+    /* width: 20%; */
+    /* height: 7vh; */
 }
 
 .icons{
