@@ -1,12 +1,31 @@
-#hamburgerIcon{
+#hamburgerIcon {
   display: none;
 }
 
+.hamburger {
+  display: none;
+  /* additional styles as needed */
+}
+
+.show .hamburger {
+  display: flex;
+  /* other styles as needed */
+}
+
+
+
+
 @media (max-width: 600px) {
-  #hamburgerIcon{
-      display: flex;
-      font-size: 50px;
-      color: white;
+  #hamburgerIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    background: #3498db;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
   }
 }
 

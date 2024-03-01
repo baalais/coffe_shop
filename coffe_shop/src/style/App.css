@@ -37,4 +37,7 @@ html {
   .icon {
     display: none;
   }
+  #root{
+  width:125%;
+}
 }
