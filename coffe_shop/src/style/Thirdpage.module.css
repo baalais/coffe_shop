@@ -1,18 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-:root {
-    --background: #222831;
-    --primary: #29a19c;
-    --secondary: #51565e;
-    --text: white;
-}
 
 .thirdpage{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    min-height: 100vh;
+    /* width: 100%; */
+    /* min-height: 100vh; */
 }
 
 .wave2{
@@ -48,13 +42,13 @@
 .bigText{
     font-family: "Grand Hotel", cursive;
     font-weight: 400;
-    font-size: 168px;
+    font-size: 140px;
     letter-spacing: 2px;
     color: white;
     margin: 0;
     margin-left: 40px;
     width: 60%;
-    height: 17vh;
+    /* height: 17vh; */
     text-align: right;
 }
 

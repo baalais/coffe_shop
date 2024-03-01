@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-:root {
-    --background: #222831;
-    --primary: #29a19c;
-    --secondary: #51565e;
-    --text: white;
-}
+
 
 .branchesPage{
     display: flex;
@@ -28,8 +23,8 @@
     font-size: 118px;
     letter-spacing: 2px;
     color: white;
-    width: 60%;
-    height: 17vh;
+    /* width: 60%; */
+    /* height: 17vh; */
     text-align: center;
     margin: 5px;
     margin-bottom: 30px;
@@ -39,7 +34,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
+    gap: .5rem;
 }
 
 .splitBox{
@@ -47,23 +44,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 30%;
-}
-.p{
-    color: white;
-    font-size: 32px;
-    font-family: 'Montserrat', 'sans-serif';
-    width: 60%;
-    line-height: 30px;
-    text-align: center;
-    margin: 5px;
+    /* width: 30%; */
 }
 
 .p{
     color: white;
     font-size: 16px;
     font-family: 'Montserrat', 'sans-serif';
-    width: 90%;
+    max-width: 30vw;
     line-height: 30px;
     text-align: center;
     margin: 10px;
@@ -80,7 +68,7 @@
     width: 50%;
     font-size: 26px;
     font-weight: bold;
-    height: 5vh;
+    /* height: 5vh; */
     margin: 30px;
 }
 
@@ -100,7 +88,7 @@
 @media screen and (max-width: 600px) {
     .bigText {
         z-index: 2;
-        font-size: 98px;
+        font-size: 80px;
         width: 100%;
         margin: 5px;
         text-align: center;
@@ -113,6 +101,9 @@
 
     .imageBox{
         flex-wrap: wrap;
+    }
+    .p {
+        max-width: 100%;
     }
 }
 
