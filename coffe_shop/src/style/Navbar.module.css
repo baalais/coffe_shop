@@ -76,16 +76,17 @@
   
     .show {
       border-bottom: 1px solid var(--text);
-      width: 100%;
+      /* width: 100%; */
       margin: 0;
       padding: 15px;
-      height:100vh;
+      /* height:100vh; */
       margin-top:50px;
       transition: background-color 0.3s ease-in-out;
       background-color: var(--secondary);
       position:absolute;
       /* height:100vh; */
       display:flex;
+      flex-direction: column;
     }
   
     .logoBar {
@@ -117,7 +118,7 @@
       padding: 15px;
       transition: background-color 0.3s ease-in-out;
       background-color: var(--secondary);
-      display:none;
+      /* display:none; */
     }
   
     .navbarItem:hover {
